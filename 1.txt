@@ -1,0 +1,13 @@
+public static Integer max(ArrayList<Integer> list) {
+    if (list == null || list.size() == 0) {
+        return null;
+    }
+
+    Integer maxValue = list.get(0);
+    for (Integer num : list) {
+        if (num > maxVal) {
+            maxValue = num;
+        }
+    }
+    return maxVal;
+}
